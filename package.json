@@ -1,0 +1,34 @@
+{
+  "name": "asciificator",
+  "version": "0.1.0",
+  "description": "Convert your images into ASCII Art",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\"",
+    "prepublishOnly": "npm run format"
+  },
+  "bin": "./src/cli.js",
+  "keywords": [
+    "ascii",
+    "image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashshah1/asciificator.git"
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "author": "Yash Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yashshah1/asciificator/issues"
+  },
+  "homepage": "https://github.com/yashshah1/asciificator#readme",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "jimp": "^0.10.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
